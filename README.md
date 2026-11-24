@@ -1,16 +1,19 @@
-# React + Vite
+# Firebase Product Management
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React product management exercise with Firebase integration.
 
-Currently, two official plugins are available:
+## Project structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- `src/components/ProductManagement.jsx`
+- `src/firebase.js`
 
-## React Compiler
+## Getting started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+git clone https://github.com/JAYANTI-THAKOR-941/firebase-database.git
+cd firebase-database
+```
 
-## Expanding the ESLint configuration
+Configure your own Firebase project and appropriate database security rules before running the app.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install Node.js and npm, then run `npm install` and `npm run dev` in the application directory. Open the terminal URL.
